@@ -1,0 +1,41 @@
+.header {
+    padding: 30px 0px;
+
+    // .header__wrapper
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+
+    // .logo__img
+
+    &__img {
+    }
+}
+
+.menu {
+
+    // .menu__list
+
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+
+    // .menu__list-item
+
+    &__list-item {
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    // .menu__list-link
+
+    &__list-link {
+    }
+}
