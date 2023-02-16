@@ -1,0 +1,60 @@
+.mission {
+    position: relative;
+    background: #A30C33;
+    padding: 140px 0px;
+    margin: 0px 0px 100px 0px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: -50px;
+        top: 47px;
+        bottom: 47px;
+        width: 348px;
+        height: 377px;
+        background-image: url('../img/offices/Left\ pattern.png');
+        background-repeat: no-repeat;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: -50px;
+        top: 47px;
+        bottom: 47px;
+        width: 348px;
+        height: 377px;
+        background-image: url('../img/offices/Right\ pattern.png');
+        background-repeat: no-repeat;
+    }
+
+    // .mission__content
+
+    &__content {
+        position: relative;
+    }
+
+    // .mission__title
+
+    &__title {
+        margin: 0px 0px 40px 0px;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 100%;
+        text-align: center;
+        color: $colorTextWhite;
+    }
+
+    // .mission__text
+
+    &__text {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        text-align: center;
+        color: $colorTextWhite;
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+}
+
