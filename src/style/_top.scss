@@ -1,0 +1,39 @@
+.top {
+    padding: 158px 0px;
+    background-image: url('../img/top/top_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    // .top__wrapper
+
+    &__wrapper {
+    }
+
+    // .top__title
+
+    &__title {
+        margin: 0px 0px 60px 0px;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 100%;
+        max-width: 780px;
+    }
+
+    // .top__btn
+
+    &__btn {
+        padding: 18px 28px;
+        font-weight: 600;
+        line-height: 20px;
+        background: #B01736;
+        border-radius: 8px;
+        color: $colorTextWhite;
+    }
+
+    // .top__btn-link
+
+    &__btn-link {
+    }
+}
+
