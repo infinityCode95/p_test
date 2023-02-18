@@ -1,12 +1,14 @@
 .top {
+    margin: 0px 0px 100px 0px;
     padding: 158px 0px;
     background-image: url('../img/top/top_bg.jpg');
     background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-
+    
     // .top__wrapper
-
+    
     &__wrapper {
     }
 
@@ -29,6 +31,11 @@
         background: #B01736;
         border-radius: 8px;
         color: $colorTextWhite;
+        transition: all .3s ease;
+
+        &:hover {
+            background: #D53152;
+        }
     }
 
     // .top__btn-link

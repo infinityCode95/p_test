@@ -1,5 +1,5 @@
 .about {
-    padding: 100px 0px;
+   margin: 0px 0px 100px 0px;
 
     // .about__wrapper
 
@@ -20,7 +20,8 @@
         text-align: center;
         font-weight: 600;
         font-size: 32px;
-        line-height: 120%;
+        line-height: 38px;
+        max-width: 890px;
 
         span {
             color: #B01736;

@@ -1,6 +1,7 @@
 .mission {
     position: relative;
     background: #A30C33;
+    background-color: rgba($color: #A30C33, $alpha: .9);
     padding: 140px 0px;
     margin: 0px 0px 100px 0px;
 
@@ -31,7 +32,6 @@
     // .mission__content
 
     &__content {
-        position: relative;
     }
 
     // .mission__title
