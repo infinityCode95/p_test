@@ -6,6 +6,11 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+
+    @media (max-width: 768px) {
+        padding: 40px 0px 96px 0px;
+        margin: 0px 0px 60px 0px;
+    }
     
     // .top__wrapper
     
@@ -18,8 +23,14 @@
         margin: 0px 0px 60px 0px;
         font-weight: 600;
         font-size: 56px;
-        line-height: 100%;
+        line-height: 56px;
         max-width: 780px;
+
+        @media (max-width: 768px) {
+            font-size: 28px;
+            line-height: 28px;
+        }
+
     }
 
     // .top__btn
@@ -35,6 +46,12 @@
 
         &:hover {
             background: #D53152;
+        }
+
+        @media (max-width: 768px) {
+            padding: 7px 26px;
+            font-size: 16px;
+            line-height: 19px;
         }
     }
 
