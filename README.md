@@ -5,3 +5,9 @@
 </h3>
 
 <p> <b>Стек:</b>  HTML, SCSS, JavaScipt, Swiper</p>
+
+<p> 
+  <b>Мои контакты:</b>
+  <a href="https://t.me/infinityCode95">🔗 Телеграм</a> 
+</p>
+
